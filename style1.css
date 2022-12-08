@@ -1,0 +1,72 @@
+h1{
+    font-size: 1.5em;
+    margin-top: 3em;
+    text-align: center;
+    padding: 30px;
+}
+h2{
+    padding-top:20px;
+    padding-bottom: 15px;
+    text-align:center;
+    font-size:2em;
+    color:antiquewhite
+}
+p{
+    font-size: 1.25em;
+    color: bisque;
+}
+.banner{
+    max-width: 100%;
+}
+.space{
+    width: 50px;
+    display: inline-block;
+}
+body{
+background-image: url('back.jpg');
+}
+section{
+    text-align: center;
+}
+.username,.password,.pattern{
+    padding:6px;
+    width:300px;
+}
+.button{
+    border-radius: 20%;
+    border-color: aliceblue;
+    padding:6px;
+}
+.button1{
+    border-radius: 50%;
+    background-color: red;
+    padding:30px;
+}
+.button2{
+    border-radius: 50%;
+    background-color: green;
+    padding:30px;
+}
+.button3{
+    border-radius: 50%;
+    background-color: blue;
+    padding:30px;
+}
+.space1{
+    width:100px;
+    display: inline-block;
+}
+.parent{
+    position:absolute;
+    z-index:1;
+    
+}
+.child{
+    position:relative;
+    z-index:2;
+    
+}
+.container{
+    display: inline-block;
+    width:50px;
+}
