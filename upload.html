@@ -1,0 +1,133 @@
+<html>
+<head>
+<title> Upload </title>
+</head>
+<style>
+body {background-color: Aliceblue;}
+h1 {font-size: 50px;text-align:center;}
+</style>
+	<div style="width:50%;background-color:Aliceblue; margin:25%; margin-bottom:5%; margin-top:5%">
+	<h1 style="text-align:center"> Donate </h1>
+	<form name="donate_item" method="post" action="">
+
+<table align="center">
+	 
+	<tr>
+		<td> <b> Label Name: </b> </tb> 
+		<td> 
+			<input type="text" name="LabelName" size="25"/> 
+		</td>
+	</tr>
+	<br>
+	<tr>
+		<td> <b> Description: </b> </td>
+		<td> 
+			<textarea name="address" cols="60" rows="5"/> </textarea> 
+		</td>
+	</tr>
+	
+	<tr>
+		<td> <b> Upload: </b> </td>
+		<td> <input type="file" id="uploadfile" name="filename"> </td>
+		<td> <input type="submit" value="upload"> </td>
+	</tr>
+	
+	<tr>
+		<td> <b> Phone Number </b> </td>
+		<td> 
+			<input type="text" name="Phnumber" size="20" />
+		</td> 
+	</tr>
+	<br>
+	<tr> 
+		<td> <b> Email id </b> </td>
+		<td> 
+			<input type="text" name="Email" size="20" />
+		</td> 
+	</tr>
+	
+	<tr> 
+		<td> <b> Address </b> </td>
+		<td> 
+			<textarea name="address" cols="60" rows="5"/> </textarea>
+		</td> 
+	</tr>
+	
+	
+	<tr> 
+		<td> <b> State </b> </td>
+		<td> <select name="state" />
+			<option value="AP" > Andhra Pradesh  </option>
+			<option value="ARP" > Arunachal Pradesh  </option>
+			<option value="AS" > Assam </option>
+			<option value="BI" > Bihar </option>
+			<option value="CH" > Chattisgarh </option>
+			<option value="GO" > Goa </option>
+			<option value="GU" > Gujarat </option>
+			<option value="HR" > Haryana </option>
+			<option value="HP" > Himachal Pradesh </option>
+			<option value="JK" > Jammu and Kashmir </option>
+			<option value="JH" > Jharkhand </option>
+			<option value="KR" > Karnataka </option>
+			<option value="KE" > Kerala </option>
+			<option value="MP" > Madhya Pradesh  </option>
+			<option value="MR" > Maharastra </option>
+			<option value="MA" > Manipur </option>
+			<option value="ME" > Meghalaya </option>
+			<option value="MI" > Mizoram </option>
+			<option value="NG" > Nagaland </option>
+			<option value="OD" > Odisha </option>
+			<option value="PJ" > Punjab </option>
+			<option value="RJ" > Rajasthan </option>
+			<option value="SK" > Sikkim </option>
+			<option value="TN" > Tamil Nadu </option>
+			<option value="TG" > Telangana </option>
+			<option value="TR" > Tripura </option>
+		</td> 
+	</tr>
+	
+	<tr> 
+		<td> <b> District </b> </td>
+		<td> <select name="dict"/>
+			<option value="AN"  > Anantapur </option>
+			<option value="CH"  > Chittor </option>
+			<option value="EG"  > East Godavari </option>
+			<option value="KR"  > Krishna </option>
+			<option value="KD"  > Kadapa </option>
+			<option value="KN"  > Kurnool </option>
+			<option value="NL"  > Nellore </option>
+			<option value="PR"  > Prakasam </option>
+			<option value="VS"  > Vishakapatnam </option>
+			<option value="VZ"  > Vizayanagaram </option>
+			<option value="SK"  > Srikakulam  </option>
+			<option value="GN"  > Guntur </option>
+			<option value="WG" > West Godavari </option>
+		</td>
+	</tr>
+	
+	<tr> 
+		<td> <b> Pin Code </b> </td>
+		<td> 
+			<input type="textarea" name="address" size="6" /> 
+		</td> 
+	</tr>
+
+	<tr> 
+		<td colspan="2" align="center" > <input type="submit" font-size="30px" onclick="return check(this.form)" value="Donate"
+			colspan="2" align="center" > <input type="reset" value="Reset" /> 
+		</td> 
+	</tr>
+</table>
+</form>
+
+	</div>
+<script language="javascript">
+function check(form)
+{
+
+document.write("<h1> Thank You for Donating</h1>");
+}
+</script>
+
+
+</html>
