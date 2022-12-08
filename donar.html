@@ -1,23 +1,27 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>DONARSKART LOGIN PAGE</title>
-<!-- Include CSS File Here -->
-<link rel="stylesheet" href="style.css"/>
-<!-- Include JS File Here -->
-<script src="js/login.js"></script>
+    <title>DONAR</title>
 </head>
 <body>
-<div class="container">
-<div class="main">
-<h2>DONARS LOGIN PAGE</h2>
-<form id="form_id" method="post" name="myform">
-<label>User Name :</label>
-<input type="text" name="username" id="username"/>
-<label>Password :</label>
-<input type="password" name="password" id="password"/>
-<input type="button" value="Login" id="submit" onclick="validate()"/>
-</form>
-</div>
-</div>
+    <h2>DONAR</h2>
+    <table>
+        <tr>
+          <th><label for="cat">Categories</label></th>
+          <th>Label Name</th>
+          <th>Description</th>
+          <th>Address</th>
+        </tr>
+        <tr>
+          <td><select name="cat" id="cat">
+            <option value="Clothes">Clothes</option>
+            <option value="Food">Food</option>
+            <option value="Furniture">Furniture</option>
+          </select></td>
+          <td><input type="text" id="label-name"></td>
+          <td><input type="text" id="des"></td>
+          <td><input type="text" id="add"></td>
+        </tr>
+      </table>
 </body>
 </html>

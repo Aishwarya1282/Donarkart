@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+    <h2>DONARKART</h2>
+    <link href="style.css" rel='stylesheet'>
+</head>
+
+<body>
+<div class="sidebar">
+    <ul class =" nav-links">
+        <li>
+            <a href="#">
+             <span class="dashboard">Dashboard</span>
+            </a> 
+         </li>
+        <li>
+           <a href="donar.html">
+            <span class="donar">Donar</span>
+           </a> 
+        </li>
+
+        <li>
+            <a href="taker.html">
+             <span class="taker">Taker</span>
+            </a> 
+         </li>
+       </ul>
+   </div>
+</div>
+<div class="clearfix"></div>
+</div>
+
+<div class="clearfix"></div>
+<br/>
+
+<div class="col-div-3">
+    <div class="box">
+        <p>67<br/><span>Logins</span></p>
+        <i class="fa fa-users box-icon"></i>
+    </div>
+</div>
+<div class="col-div-3">
+    <div class="box">
+        <p>88<br/><span>Donors</span></p>
+        <i class="fa fa-list box-icon"></i>
+    </div>
+</div>
+<div class="col-div-3">
+    <div class="box">
+        <p>99<br/><span>Takers</span></p>
+        <i class="fa fa-shopping-bag box-icon"></i>
+    </div>
+</div>
+   <script>
+ let sidebar = document.querySelector(".sidebar");
+ let sidebarBtn = document.querySelector(".sidebarBtn");
+ sidebarBtn.onclick = function() {
+   sidebar.classList.toggle("active");
+   if(sidebar.classList.contains("active")){
+   sidebarBtn.classList.replace("bx-menu" ,"bx-menu-alt-right");
+ }else
+   sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+ }
+  </script>
+  </body>   
